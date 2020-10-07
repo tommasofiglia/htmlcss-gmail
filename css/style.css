@@ -1,4 +1,5 @@
 body{
+  margin-top: 15px;
   background-image: url('../img/background_gmail.jpg');
   background-size: cover;
   box-sizing: border-box;
@@ -19,10 +20,19 @@ nav{
   border-bottom: 1px solid white;
 }
 
+main{
+  margin-top: 10px;
+  height: 105px;
+  border-bottom: 1px solid white;
+}
+
+footer{
+  margin-top: 5px;
+  text-align: center;
+}
 #gmail_title{
   display: inline-block;
   color: white;
-  padding-bottom: 80px;
 }
 
 .search{
@@ -41,7 +51,7 @@ nav{
 .mail{
   width: 100%;
   background-color: lightgrey;
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .oggetto_email{
@@ -60,6 +70,17 @@ nav{
   width: 100%;
 }
 
-main{
-  margin-top: 5px;
+#end_footer{
+  color: white;
+  font-size: 20px;
+}
+
+#powered{
+  font-size: 11px;
+  margin-left: 3px;
+}
+#circle{
+  background-color: orange;
+  border-radius: 50%;
+  border: 10px solid orange;
 }
