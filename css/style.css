@@ -1,0 +1,65 @@
+body{
+  background-image: url('../img/background_gmail.jpg');
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: auto;
+  width: 900px;
+}
+
+header{
+  height: 80px;
+  border-bottom: 1px solid white;
+}
+
+nav{
+  height: 85px;
+  border-bottom: 1px solid white;
+}
+
+#gmail_title{
+  display: inline-block;
+  color: white;
+  padding-bottom: 80px;
+}
+
+.search{
+  margin-top: 10px;
+}
+
+#vai{
+  border-color: lightgrey;
+  border-radius: 5px;
+}
+
+#unread{
+  color: white;
+}
+
+.mail{
+  width: 100%;
+  background-color: lightgrey;
+    border: 1px solid black;
+}
+
+.oggetto_email{
+  display: inline-block;
+  width: 17%;
+}
+
+.testo_email{
+  display: inline-block;
+  width: 79%;
+}
+
+#whitemail{
+  background-color: white;
+  border: 1px solid black;
+  width: 100%;
+}
+
+main{
+  margin-top: 5px;
+}
