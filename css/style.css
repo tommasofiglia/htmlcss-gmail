@@ -60,6 +60,7 @@ footer{
 }
 
 .testo_email{
+  color: grey;
   display: inline-block;
   width: 79%;
 }
